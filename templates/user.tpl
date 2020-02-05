@@ -17,7 +17,7 @@
   </head>
   <body>
 	<{if $smarty.session.admin}>
-	
+        <{include file="tpl/admin.tpl"}>
 	<{else}>
 		<{include file="tpl/login.tpl"}>
 	<{/if}>
